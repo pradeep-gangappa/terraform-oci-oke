@@ -49,3 +49,9 @@ output "kubeconfig" {
   description = "convenient command to set KUBECONFIG environment variable before running kubectl locally"
   value       = "export KUBECONFIG=generated/kubeconfig"
 }
+
+output "ad_mapping" {
+  value = module.oke.ad_mapping
+    
+  }
+}
