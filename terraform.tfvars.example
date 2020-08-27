@@ -133,9 +133,9 @@ dashboard_enabled = false
 kubernetes_version = "v1.16.8"
 
 node_pools = {
-  np1 = ["VM.Standard.E2.2","AD1,AD2",2]
-  np2 = ["VM.Standard2.8",2]
-  np3 = ["VM.Standard.E2.2", 1]
+  np1 = ["VM.Standard.E2.2",3,"AD1,AD2,AD3"]
+  np2 = ["VM.Standard2.8",2,"AD1,AD2"]
+  np3 = ["VM.Standard.E2.2", 1,"AD1"]
   # np4 = ["VM.Standard.E2.2", 4]
 }
 
